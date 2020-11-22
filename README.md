@@ -47,7 +47,7 @@ npm run ts:watch
 # Step 2, listen for compilation output type .d.ts file
 npm run types:watch
 # Step 3, development mode, listen to compile preview website instance
-npm run doc:dev
+npm run start
 ```
 
 Builds the app for production to the build folder.
