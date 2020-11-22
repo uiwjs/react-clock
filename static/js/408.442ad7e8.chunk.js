@@ -1,0 +1,2 @@
+(this["webpackJsonp@uiw/react-clock"]=this["webpackJsonp@uiw/react-clock"]||[]).push([[408],{451:function(s,a){var c=Prism.util.clone(Prism.languages.typescript);Prism.languages.tsx=Prism.languages.extend("jsx",c)}}]);
+//# sourceMappingURL=408.442ad7e8.chunk.js.map
