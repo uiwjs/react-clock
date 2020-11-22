@@ -1,0 +1,54 @@
+
+@keyframes u-clock-fade-in {
+  from { opacity: 0; }
+  to { opacity: 1; }
+}
+
+* {
+  transform-origin: inherit;
+}
+
+.u-clock {
+  color: #212121;
+  fill: currentColor;
+  transform-origin: 50px 50px;
+  animation-name: u-clock-fade-in;
+  animation-duration: 500ms;
+  animation-fill-mode: both;
+  background-color: #fff;
+  border-radius: 50%;
+}
+.u-clock line {
+  stroke: currentColor;
+  stroke-linecap: round;
+}
+.u-clock-marks {
+  opacity: 0.7;
+  stroke-width: 1px;
+  line {
+    stroke: currentColor;
+    stroke-linecap: round;
+  }
+}
+.u-clock-mark1 { transform: rotate(30deg); }
+.u-clock-mark2 { transform: rotate(60deg); }
+.u-clock-mark3 { transform: rotate(90deg); }
+.u-clock-mark4 { transform: rotate(120deg); }
+.u-clock-mark5 { transform: rotate(150deg); }
+.u-clock-mark6 { transform: rotate(180deg); }
+.u-clock-mark7 { transform: rotate(210deg); }
+.u-clock-mark8 { transform: rotate(240deg); }
+.u-clock-mark9 { transform: rotate(270deg); }
+.u-clock-mark10 { transform: rotate(300deg); }
+.u-clock-mark11 { transform: rotate(330deg); }
+.u-clock-mark12 { transform: rotate(360deg); }
+
+.u-clock-hand {
+  stroke-width: 1.5px;
+  transition: transform 200ms cubic-bezier(0.175, 0.885, 0.32, 1.275);
+}
+
+.u-clock-second {
+  color: #F44336;
+  stroke-width: 1px;
+}
