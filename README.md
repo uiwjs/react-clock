@@ -16,7 +16,7 @@ An analog clock for your react app.
 
 ## Quick Start
 
-```js
+```jsx
 import ReactClock from '@uiw/react-clock';
 
 function Demo() {
