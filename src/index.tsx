@@ -62,26 +62,36 @@ export default function Clock(props: ClockProps = {}) {
   // eslint-disable-next-line react-hooks/exhaustive-deps
   }, []);
   return (
-    <svg className="u-clock" viewBox="0 0 100 100" {...svgProps} style={{ ...props.style, width, height }}>
+    <svg
+      className="u-clock" 
+      viewBox="0 0 100 100" 
+      color="#212121"
+      fill="currentColor"
+      width={width}
+      height={height}
+      {...svgProps}
+    >
       <g className="u-clock-marks">
-        <line className="u-clock-marks u-clock-mark1" x1="50" y1="5" x2="50" y2="10" />
-        <line className="u-clock-marks u-clock-mark2" x1="50" y1="5" x2="50" y2="10" />
-        <line className="u-clock-marks u-clock-mark3" x1="50" y1="5" x2="50" y2="10" />
-        <line className="u-clock-marks u-clock-mark4" x1="50" y1="5" x2="50" y2="10" />
-        <line className="u-clock-marks u-clock-mark5" x1="50" y1="5" x2="50" y2="10" />
-        <line className="u-clock-marks u-clock-mark6" x1="50" y1="5" x2="50" y2="10" />
-        <line className="u-clock-marks u-clock-mark7" x1="50" y1="5" x2="50" y2="10" />
-        <line className="u-clock-marks u-clock-mark8" x1="50" y1="5" x2="50" y2="10" />
-        <line className="u-clock-marks u-clock-mark9" x1="50" y1="5" x2="50" y2="10" />
-        <line className="u-clock-marks u-clock-mark10" x1="50" y1="5" x2="50" y2="10" />
-        <line className="u-clock-marks u-clock-mark11" x1="50" y1="5" x2="50" y2="10" />
-        <line className="u-clock-marks u-clock-mark12" x1="50" y1="5" x2="50" y2="10" />
+        {[...Array(12)].map((_, idx) => (
+          <line
+            key={idx}
+            stroke="currentColor"
+            opacity={0.7}
+            strokeWidth={1}
+            transform={`rotate(${30 * idx})`}
+            strokeLinecap="round"
+            x1="50" 
+            y1="5" 
+            x2="50"
+            y2="10"
+          />
+        ))}
       </g>
-      <line ref={handHour} className="u-clock-hand u-clock-hour" x1="50" y1="25" x2="50" y2="50" />
-      <line ref={handMinute} className="u-clock-hand u-clock-minute" x1="50" y1="10" x2="50" y2="50" />
+      <line ref={handHour} stroke="currentColor" className="u-clock-hour" strokeLinecap="round" strokeWidth="1.5" x1="50" y1="25" x2="50" y2="50" />
+      <line ref={handMinute} stroke="currentColor" className="u-clock-minute" strokeLinecap="round" strokeWidth="1.5" x1="50" y1="10" x2="50" y2="50" />
       <circle cx="50" cy="50" r="3" />
-      <g ref={handSecond} className="u-clock-hand u-clock-second">
-        <line x1="50" y1="10" x2="50" y2="60" />
+      <g ref={handSecond} className="u-clock-second" stroke="currentColor" color="#F44336" strokeWidth="1">
+        <line x1="50" y1="10" x2="50" y2="60" strokeLinecap="round" />
         <circle cx="50" cy="50" r="1.5" />
       </g>
     </svg>
