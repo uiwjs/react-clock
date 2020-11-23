@@ -34,7 +34,7 @@ type ClockProps = {
   height?: number;
   value?: Date;
   run?: boolean
-}
+} & React.SVGProps<SVGSVGElement>;
 ```
 
 ## Development
