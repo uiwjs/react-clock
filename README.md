@@ -6,11 +6,12 @@
 </p>
 
 <!--dividing-->
-[![](https://img.shields.io/github/issues/uiwjs/react-clock.svg)](https://github.com/uiwjs/react-clock/issues)
-[![](https://img.shields.io/github/forks/uiwjs/react-clock.svg)](https://github.com/uiwjs/react-clock/network)
-[![](https://img.shields.io/github/stars/uiwjs/react-clock.svg)](https://github.com/uiwjs/react-clock/stargazers)
-[![](https://img.shields.io/github/release/uiwjs/react-clock)](https://github.com/uiwjs/react-clock/releases)
-[![](https://img.shields.io/npm/v/@uiw/react-clock.svg)](https://www.npmjs.com/package/@uiw/react-clock)
+[![Build & Deploy](https://github.com/uiwjs/react-clock/workflows/Build%20&%20Deploy/badge.svg)](https://github.com/uiwjs/react-clock/actions)
+[![Issues](https://img.shields.io/github/issues/uiwjs/react-clock.svg)](https://github.com/uiwjs/react-clock/issues)
+[![Forks](https://img.shields.io/github/forks/uiwjs/react-clock.svg)](https://github.com/uiwjs/react-clock/network)
+[![Stars](https://img.shields.io/github/stars/uiwjs/react-clock.svg)](https://github.com/uiwjs/react-clock/stargazers)
+[![Release](https://img.shields.io/github/release/uiwjs/react-clock)](https://github.com/uiwjs/react-clock/releases)
+[![npm version](https://img.shields.io/npm/v/@uiw/react-clock.svg)](https://www.npmjs.com/package/@uiw/react-clock)
 
 An analog clock for your react app.
 
