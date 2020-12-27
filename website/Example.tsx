@@ -2,7 +2,7 @@ import React from 'react';
 import ReactClock from '../';
 import styles from './exmaple.module.less';
 
-const Example () => {
+const Example = () => {
   return (
     <div className={styles.clock}>
       <ReactClock />
