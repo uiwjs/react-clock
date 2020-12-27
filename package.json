@@ -7,8 +7,8 @@
   "module": "lib/esm/index.js",
   "scripts": {
     "prepare": "npm run build:lib",
-    "doc": "ENTRYDIR=website kkt build",
-    "start": "ENTRYDIR=website kkt start",
+    "doc": "kkt build --app-src ./website",
+    "start": "kkt start --app-src ./website",
     "build": "npm run build:lib && npm run doc",
     "build:lib": "npm run ts:build && npm run types:esm && npm run types:cjs && npm run css:build",
     "watch": "npm run ts:watch & npm run types:watch & npm run css:watch",
@@ -35,26 +35,27 @@
     "react": ">=16.8.0",
     "react-dom": ">=16.8.0"
   },
-  "dependencies": {
-    "react-hooks-global-state": "1.0.1"
-  },
   "devDependencies": {
-    "@kkt/loader-less": "5.10.3",
-    "@kkt/loader-raw": "5.10.3",
+    "@kkt/less-modules": "6.0.11",
+    "@kkt/raw-modules": "6.0.11",
+    "@kkt/scope-plugin-options": "6.0.11",
     "@types/react": "16.9.34",
     "@types/react-dom": "16.9.6",
     "@uiw/react-markdown-preview": "1.0.9",
     "@uiw/react-github-corners": "1.2.0",
     "@uiw/react-shields": "1.1.0",
     "@uiw/reset.css": "1.0.4",
-    "compile-less-cli": "1.5.1",
+    "compile-less-cli": "1.6.0",
     "react": "16.13.1",
     "react-dom": "16.13.1",
-    "kkt": "5.10.3",
+    "kkt": "6.0.11",
     "tsbb": "1.7.8"
   },
   "eslintConfig": {
-    "extends": "react-app"
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
   },
   "browserslist": {
     "production": [
