@@ -1,4 +1,4 @@
-name: Build and Deploy uiwjs-react-clock
+name: Build & Deploy
 on:
   push:
     branches:
