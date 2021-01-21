@@ -2246,10 +2246,10 @@
     prismjs "1.21.0"
     react-markdown "4.3.1"
 
-"@uiw/react-shields@1.1.0":
-  version "1.1.0"
-  resolved "https://registry.yarnpkg.com/@uiw/react-shields/-/react-shields-1.1.0.tgz#0317ec46dd19d4c7334ddd33ddbbf1176ce2d990"
-  integrity sha512-EGHx2se5+UwT2n2Pc7kwbJDEIorXRj/2NDSDB5+RCP52JuFB5V07iH3wbArOZliLshg8okjJPdHsJqA7KCztPg==
+"@uiw/react-shields@1.1.1":
+  version "1.1.1"
+  resolved "https://registry.yarnpkg.com/@uiw/react-shields/-/react-shields-1.1.1.tgz#dec6e1747f906208c938d56ed5959be66c12c4c7"
+  integrity sha512-FHyFfNKst5/eo1Cb+OFVF/Yyogg7F8p1I9kktGggIHYnQ1IBOot6zftRaV+KgPN2NaLFm7mx0ufx0N5C2McGhQ==
 
 "@uiw/reset.css@1.0.4":
   version "1.0.4"
