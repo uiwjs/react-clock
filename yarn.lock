@@ -1436,10 +1436,10 @@
     less "^3.13.1"
     less-loader "^7.1.0"
 
-"@kkt/raw-modules@6.0.11":
-  version "6.0.11"
-  resolved "https://registry.yarnpkg.com/@kkt/raw-modules/-/raw-modules-6.0.11.tgz#b6a2d399f2e2797bebda6375b21ec5d2246aabda"
-  integrity sha512-dWnujo/kSfaYmYruc6NgR1BPYSNzWPx00X/jVNucaM8HLJhsPPKjwjXcAZ+xNRRYK5s2K4jv0abZBoQ7rOS/jg==
+"@kkt/raw-modules@6.8.0":
+  version "6.8.0"
+  resolved "https://registry.yarnpkg.com/@kkt/raw-modules/-/raw-modules-6.8.0.tgz#d79e7772925927fb39ff8cf7311c9817137306fd"
+  integrity sha512-mNbTfpzG/p78T6Uk/c9vA2Ozqmahy7RJpYc2t4YQDAO6aeVzNcyCxbpgxYU3YVikf+/Kf7QJqbMCoF0qRlqe7A==
   dependencies:
     raw-loader "^4.0.2"
 
