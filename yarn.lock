@@ -1443,10 +1443,10 @@
   dependencies:
     raw-loader "^4.0.2"
 
-"@kkt/scope-plugin-options@6.0.11":
-  version "6.0.11"
-  resolved "https://registry.yarnpkg.com/@kkt/scope-plugin-options/-/scope-plugin-options-6.0.11.tgz#3796aa7831c8c817bf893a5374e42f51f220b151"
-  integrity sha512-V3Yvikh58BXnh8g5wHFeXm7OcvRQOOT7eMR0W2t21ST4o9pdaRYNKTy2eG/W7tzBvHfIAwcwUG+koWm+TrO7aw==
+"@kkt/scope-plugin-options@6.8.0":
+  version "6.8.0"
+  resolved "https://registry.yarnpkg.com/@kkt/scope-plugin-options/-/scope-plugin-options-6.8.0.tgz#83fbd9105b960971c08d3342f15a74321d935275"
+  integrity sha512-QEhSqZsgPgZ2OOqJA+ASRDkw5Gf6xGPQbttJHppK+MzbAUKmSAC1CQr6yieQTWQZysUgqcNmFQAToWG7Wk1fOw==
 
 "@nodelib/fs.scandir@2.1.3":
   version "2.1.3"
