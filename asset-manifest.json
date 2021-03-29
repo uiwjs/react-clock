@@ -944,19 +944,19 @@
     "runtime-main.js": "/react-clock/static/js/runtime-main.28925bef.js",
     "runtime-main.js.map": "/react-clock/static/js/runtime-main.28925bef.js.map",
     "static/css/471.7298862e.chunk.css": "/react-clock/static/css/471.7298862e.chunk.css",
-    "static/js/471.e47649de.chunk.js": "/react-clock/static/js/471.e47649de.chunk.js",
-    "static/js/471.e47649de.chunk.js.map": "/react-clock/static/js/471.e47649de.chunk.js.map",
+    "static/js/471.742a6ae9.chunk.js": "/react-clock/static/js/471.742a6ae9.chunk.js",
+    "static/js/471.742a6ae9.chunk.js.map": "/react-clock/static/js/471.742a6ae9.chunk.js.map",
     "index.html": "/react-clock/index.html",
     "static/css/471.7298862e.chunk.css.map": "/react-clock/static/css/471.7298862e.chunk.css.map",
     "static/css/main.2631e280.chunk.css.map": "/react-clock/static/css/main.2631e280.chunk.css.map",
-    "static/js/471.e47649de.chunk.js.LICENSE.txt": "/react-clock/static/js/471.e47649de.chunk.js.LICENSE.txt",
+    "static/js/471.742a6ae9.chunk.js.LICENSE.txt": "/react-clock/static/js/471.742a6ae9.chunk.js.LICENSE.txt",
     "static/js/72.d8c85c3e.chunk.js.LICENSE.txt": "/react-clock/static/js/72.d8c85c3e.chunk.js.LICENSE.txt",
     "static/media/logo.3931a054.svg": "/react-clock/static/media/logo.3931a054.svg"
   },
   "entrypoints": [
     "static/js/runtime-main.28925bef.js",
     "static/css/471.7298862e.chunk.css",
-    "static/js/471.e47649de.chunk.js",
+    "static/js/471.742a6ae9.chunk.js",
     "static/css/main.2631e280.chunk.css",
     "static/js/main.56b14292.chunk.js"
   ]
