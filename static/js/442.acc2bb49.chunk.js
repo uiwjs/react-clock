@@ -1,2 +1,0 @@
-(this["webpackJsonp@uiw/react-clock"]=this["webpackJsonp@uiw/react-clock"]||[]).push([[442],{486:function(a,e){!function(a){function e(e,n){a.languages[e]&&a.languages.insertBefore(e,"comment",{"doc-comment":n})}var n=a.languages.markup.tag,t={pattern:/\/\/\/.*/,greedy:!0,alias:"comment",inside:{tag:n}},c={pattern:/'''.*/,greedy:!0,alias:"comment",inside:{tag:n}};e("csharp",t),e("fsharp",t),e("vbnet",c)}(Prism)}}]);
-//# sourceMappingURL=442.acc2bb49.chunk.js.map

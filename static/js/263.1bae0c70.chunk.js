@@ -1,2 +1,0 @@
-(this["webpackJsonp@uiw/react-clock"]=this["webpackJsonp@uiw/react-clock"]||[]).push([[263],{307:function(n,a){Prism.languages["nand2tetris-hdl"]={comment:/\/\/.*|\/\*[\s\S]*?(?:\*\/|$)/,keyword:/\b(?:CHIP|IN|OUT|PARTS|BUILTIN|CLOCKED)\b/,boolean:/\b(?:true|false)\b/,function:/[A-Za-z][A-Za-z0-9]*(?=\()/,number:/\b\d+\b/,operator:/=|\.\./,punctuation:/[{}[\];(),:]/}}}]);
-//# sourceMappingURL=263.1bae0c70.chunk.js.map
