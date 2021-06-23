@@ -10,7 +10,7 @@
     "doc": "kkt build --app-src ./website",
     "start": "kkt start --app-src ./website",
     "build": "npm run build:lib && npm run doc",
-    "build:lib": "npm run ts:build && npm run types:esm && npm run types:cjs && npm run css:build",
+    "build:lib": "npm run ts:build && npm run types:esm && npm run types:cjs && npm run css:build && npm run css:build:dist",
     "watch": "npm run ts:watch & npm run types:watch & npm run css:watch",
     "types:build": "tsbb types --sourceRoot src --target ESNEXT",
     "types:watch": "npm run types:esm -- --watch & npm run types:cjs -- --watch",
@@ -18,6 +18,7 @@
     "types:cjs": "npm run types:build -- --outDir ../lib/cjs",
     "css:build": "compile-less -d src -o lib/esm",
     "css:watch": "compile-less -d src -o lib/esm --watch",
+    "css:build:dist": "compile-less -d src --combine lib/dist.css --rm-global",
     "ts:watch": "tsbb watch --env-name esm:dev --env-name cjs --target react",
     "ts:build": "tsbb build --target react"
   },
@@ -36,20 +37,20 @@
     "react-dom": ">=16.8.0"
   },
   "devDependencies": {
-    "@kkt/less-modules": "6.8.2",
-    "@kkt/raw-modules": "6.8.2",
-    "@kkt/scope-plugin-options": "6.8.2",
-    "@types/react": "17.0.3",
-    "@types/react-dom": "17.0.3",
-    "@uiw/react-markdown-preview": "2.1.1",
-    "@uiw/react-github-corners": "1.2.0",
+    "@kkt/less-modules": "6.10.4",
+    "@kkt/raw-modules": "6.10.4",
+    "@kkt/scope-plugin-options": "6.10.4",
+    "@types/react": "17.0.11",
+    "@types/react-dom": "17.0.8",
+    "@uiw/react-markdown-preview": "3.1.1",
+    "@uiw/react-github-corners": "1.4.0",
     "@uiw/react-shields": "1.1.1",
     "@uiw/reset.css": "1.0.4",
-    "compile-less-cli": "1.7.0",
+    "compile-less-cli": "1.8.0",
     "react": "17.0.2",
     "react-dom": "17.0.2",
-    "kkt": "6.8.2",
-    "tsbb": "2.1.2"
+    "kkt": "6.10.4",
+    "tsbb": "2.2.1"
   },
   "eslintConfig": {
     "extends": [

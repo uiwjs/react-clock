@@ -1,9 +1,9 @@
 import React from 'react';
-import logo from './logo.svg';
 import MarkdownPreview from '@uiw/react-markdown-preview';
 import GitHubCorners from '@uiw/react-github-corners';
 import Github from '@uiw/react-shields/lib/esm/github';
 import Npm from '@uiw/react-shields/lib/esm/npm';
+import logo from './logo.svg';
 import MDStr from '../README.md';
 import Example from './Example';
 import './App.css';
