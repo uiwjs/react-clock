@@ -1,24 +1,24 @@
 {
   "files": {
     "main.css": "/react-clock/static/css/main.1f45ae1b.chunk.css",
-    "main.js": "/react-clock/static/js/main.4b8b088e.chunk.js",
-    "main.js.map": "/react-clock/static/js/main.4b8b088e.chunk.js.map",
+    "main.js": "/react-clock/static/js/main.43b7644e.chunk.js",
+    "main.js.map": "/react-clock/static/js/main.43b7644e.chunk.js.map",
     "runtime-main.js": "/react-clock/static/js/runtime-main.6f10199b.js",
     "runtime-main.js.map": "/react-clock/static/js/runtime-main.6f10199b.js.map",
     "static/css/2.d01cb069.chunk.css": "/react-clock/static/css/2.d01cb069.chunk.css",
-    "static/js/2.3edd56c7.chunk.js": "/react-clock/static/js/2.3edd56c7.chunk.js",
-    "static/js/2.3edd56c7.chunk.js.map": "/react-clock/static/js/2.3edd56c7.chunk.js.map",
+    "static/js/2.c0c145b7.chunk.js": "/react-clock/static/js/2.c0c145b7.chunk.js",
+    "static/js/2.c0c145b7.chunk.js.map": "/react-clock/static/js/2.c0c145b7.chunk.js.map",
     "index.html": "/react-clock/index.html",
     "static/css/2.d01cb069.chunk.css.map": "/react-clock/static/css/2.d01cb069.chunk.css.map",
     "static/css/main.1f45ae1b.chunk.css.map": "/react-clock/static/css/main.1f45ae1b.chunk.css.map",
-    "static/js/2.3edd56c7.chunk.js.LICENSE.txt": "/react-clock/static/js/2.3edd56c7.chunk.js.LICENSE.txt",
+    "static/js/2.c0c145b7.chunk.js.LICENSE.txt": "/react-clock/static/js/2.c0c145b7.chunk.js.LICENSE.txt",
     "static/media/logo.3931a054.svg": "/react-clock/static/media/logo.3931a054.svg"
   },
   "entrypoints": [
     "static/js/runtime-main.6f10199b.js",
     "static/css/2.d01cb069.chunk.css",
-    "static/js/2.3edd56c7.chunk.js",
+    "static/js/2.c0c145b7.chunk.js",
     "static/css/main.1f45ae1b.chunk.css",
-    "static/js/main.4b8b088e.chunk.js"
+    "static/js/main.43b7644e.chunk.js"
   ]
 }
