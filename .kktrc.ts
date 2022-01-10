@@ -6,7 +6,7 @@ import rawModules from '@kkt/raw-modules';
 import scopePluginOptions from '@kkt/scope-plugin-options';
 import pkg from './package.json';
 
-export default (conf: Configuration, env: string, options: LoaderConfOptions) => {
+export default (conf: Configuration, env: 'production' | 'development', options: LoaderConfOptions) => {
   conf = rawModules(conf, env, { ...options });
   conf = lessModules(conf, env, options);
   conf = scopePluginOptions(conf, env, {
@@ -19,6 +19,35 @@ export default (conf: Configuration, env: string, options: LoaderConfOptions) =>
   conf.plugins!.push(new webpack.DefinePlugin({
     VERSION: JSON.stringify(pkg.version),
   }));
-  conf.output = { ...conf.output, publicPath: './' }
+  if (env === 'production') {
+    conf.output = { ...conf.output, publicPath: './' }
+    conf.optimization = {
+      ...conf.optimization,
+      splitChunks: {
+        cacheGroups: {
+          reactvendor: {
+            test: /[\\/]node_modules[\\/](react|react-dom)[\\/]/,
+            name: 'react-vendor',
+            chunks: 'all',
+          },
+          refractor: {
+            test: /[\\/]node_modules[\\/](refractor)[\\/]/,
+            name: 'refractor-prismjs-vendor',
+            chunks: 'all',
+          },
+          runtime: {
+            test: /[\\/]node_modules[\\/](@babel)[\\/]/,
+            name: 'babel-vendor',
+            chunks: 'all',
+          },
+          parse5: {
+            test: /[\\/]node_modules[\\/](parse5)[\\/]/,
+            name: 'parse5-vendor',
+            chunks: 'all',
+          },
+        }
+      }
+    }
+  }
   return conf;
 }
