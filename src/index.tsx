@@ -1,12 +1,12 @@
 import React, { useEffect, useRef } from 'react';
 import './index.less';
 
-export type ClockProps = {
+export interface ClockProps extends React.SVGProps<SVGSVGElement> {
   width?: number;
   height?: number;
   value?: Date;
   run?: boolean
-} & React.SVGProps<SVGSVGElement>;
+}
 
 const rotations = [0, 0, 0]; // [seconds, minutes, hours]
 
