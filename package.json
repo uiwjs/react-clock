@@ -1,6 +1,6 @@
 {
   "name": "@uiw/react-clock",
-  "version": "1.2.1",
+  "version": "1.2.2",
   "description": "An analog clock for your React app.",
   "homepage": "https://uiwjs.github.io/react-clock",
   "main": "cjs/index.js",
