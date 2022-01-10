@@ -1,24 +1,23 @@
 {
   "files": {
-    "main.css": "/react-clock/static/css/main.1f5fc1b3.chunk.css",
-    "main.js": "/react-clock/static/js/main.926969e4.chunk.js",
-    "main.js.map": "/react-clock/static/js/main.926969e4.chunk.js.map",
-    "parse5-vendor.js": "/react-clock/static/js/parse5-vendor.f8354648.chunk.js",
-    "parse5-vendor.js.map": "/react-clock/static/js/parse5-vendor.f8354648.chunk.js.map",
-    "refractor-prismjs-vendor.js": "/react-clock/static/js/refractor-prismjs-vendor.74def35c.chunk.js",
-    "refractor-prismjs-vendor.js.map": "/react-clock/static/js/refractor-prismjs-vendor.74def35c.chunk.js.map",
-    "runtime-main.js": "/react-clock/static/js/runtime-main.69178cc6.js",
-    "runtime-main.js.map": "/react-clock/static/js/runtime-main.69178cc6.js.map",
+    "main.css": "/react-clock/static/css/main.b564ec67.css",
+    "main.js": "/react-clock/static/js/main.d32a08cd.js",
+    "refractor-prismjs-vendor.js": "/react-clock/static/js/refractor-prismjs-vendor.a3bbb30a.js",
+    "parse5-vendor.js": "/react-clock/static/js/parse5-vendor.17ea7169.js",
+    "react-vendor.js": "/react-clock/static/js/react-vendor.f66741b2.js",
+    "static/media/logo.svg": "/react-clock/static/media/logo.3931a054f5ef8356122965d973d55570.svg",
     "index.html": "/react-clock/index.html",
-    "static/css/main.1f5fc1b3.chunk.css.map": "/react-clock/static/css/main.1f5fc1b3.chunk.css.map",
-    "static/js/main.926969e4.chunk.js.LICENSE.txt": "/react-clock/static/js/main.926969e4.chunk.js.LICENSE.txt",
-    "static/media/logo.3931a054.svg": "/react-clock/static/media/logo.3931a054.svg"
+    "main.b564ec67.css.map": "/react-clock/static/css/main.b564ec67.css.map",
+    "main.d32a08cd.js.map": "/react-clock/static/js/main.d32a08cd.js.map",
+    "refractor-prismjs-vendor.a3bbb30a.js.map": "/react-clock/static/js/refractor-prismjs-vendor.a3bbb30a.js.map",
+    "parse5-vendor.17ea7169.js.map": "/react-clock/static/js/parse5-vendor.17ea7169.js.map",
+    "react-vendor.f66741b2.js.map": "/react-clock/static/js/react-vendor.f66741b2.js.map"
   },
   "entrypoints": [
-    "static/js/runtime-main.69178cc6.js",
-    "static/js/refractor-prismjs-vendor.74def35c.chunk.js",
-    "static/js/parse5-vendor.f8354648.chunk.js",
-    "static/css/main.1f5fc1b3.chunk.css",
-    "static/js/main.926969e4.chunk.js"
+    "static/js/refractor-prismjs-vendor.a3bbb30a.js",
+    "static/js/parse5-vendor.17ea7169.js",
+    "static/js/react-vendor.f66741b2.js",
+    "static/css/main.b564ec67.css",
+    "static/js/main.d32a08cd.js"
   ]
 }
