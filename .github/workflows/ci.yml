@@ -1,11 +1,8 @@
-name: Build & Deploy
+name: CI
 on:
   push:
     branches:
       - master
-
-env:
-  SKIP_PREFLIGHT_CHECK: true
 
 jobs:
   build-deploy:
@@ -19,6 +16,21 @@ jobs:
     - run: npm install
     - run: npm run build
     - run: npm run doc
+    - run: npm run bundle
+    - run: npm run bundle:min
+
+    - name: Generate Contributors Images
+      uses: jaywcjlove/github-action-contributors@main
+      with:
+        filter-author: (renovate\[bot\]|renovate-bot|dependabot\[bot\])
+        output: build/CONTRIBUTORS.svg
+        avatarSize: 42
+
+    - name: Deploy
+      uses: peaceiris/actions-gh-pages@v3
+      with:
+        github_token: ${{ secrets.GITHUB_TOKEN }}
+        publish_dir: ./build
 
     - name: Create Tag
       id: create_tag
@@ -52,12 +64,6 @@ jobs:
           ${{ steps.changelog.outputs.compareurl }}
 
           ${{ steps.changelog.outputs.changelog }}
-
-    - name: Deploy
-      uses: peaceiris/actions-gh-pages@v3
-      with:
-        github_token: ${{ secrets.GITHUB_TOKEN }}
-        publish_dir: ./build
 
     - run: npm install @jsdevtools/npm-publish -g
     - run: npm-publish --token="${{ secrets.NPM_TOKEN }}" package.json
