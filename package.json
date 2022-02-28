@@ -11,6 +11,9 @@
     "start": "kkt start --app-src ./website",
     "watch": "tsbb watch",
     "build": "tsbb build && npm run css:build && npm run css:build:dist",
+    "bundle": "ncc build src/index.tsx --target web --filename clock",
+    "bundle:watch": "ncc watch src/index.tsx --target web --filename clock",
+    "bundle:min": "ncc build src/index.tsx --target web --filename clock --minify",
     "css:build": "compile-less -d src -o esm",
     "css:watch": "compile-less -d src -o esm --watch",
     "css:build:dist": "compile-less -d src --combine dist.css --rm-global"
@@ -22,6 +25,7 @@
   "license": "MIT",
   "files": [
     "dist.css",
+    "dist",
     "cjs",
     "esm",
     "src"
@@ -31,20 +35,21 @@
     "react-dom": ">=16.8.0"
   },
   "devDependencies": {
-    "@kkt/less-modules": "7.0.5",
-    "@kkt/raw-modules": "7.0.5",
-    "@kkt/scope-plugin-options": "7.0.5",
-    "@types/react": "17.0.38",
-    "@types/react-dom": "17.0.11",
-    "@uiw/react-markdown-preview": "3.4.7",
-    "@uiw/react-github-corners": "1.5.3",
-    "@uiw/react-shields": "1.1.2",
-    "@uiw/reset.css": "1.0.5",
-    "compile-less-cli": "1.8.11",
-    "react": "17.0.2",
-    "react-dom": "17.0.2",
-    "kkt": "7.0.5",
-    "tsbb": "3.5.4"
+    "@kkt/less-modules": "~7.1.1",
+    "@kkt/ncc": "~1.0.9",
+    "@kkt/raw-modules": "~7.1.1",
+    "@kkt/scope-plugin-options": "~7.1.1",
+    "@types/react": "~17.0.39",
+    "@types/react-dom": "~17.0.11",
+    "@uiw/react-markdown-preview": "~3.5.0",
+    "@uiw/react-github-corners": "~1.5.3",
+    "@uiw/react-shields": "~1.1.2",
+    "@uiw/reset.css": "~1.0.5",
+    "compile-less-cli": "~1.8.11",
+    "react": "~17.0.2",
+    "react-dom": "~17.0.2",
+    "kkt": "~7.1.5",
+    "tsbb": "~3.7.0"
   },
   "eslintConfig": {
     "extends": [
