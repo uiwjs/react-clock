@@ -61,8 +61,8 @@ Your app is ready to be deployed!
 
 As always, thanks to our amazing contributors!
 
-<a href="https://github.com/uiwjs/react-md-editor/graphs/contributors">
-  <img src="https://uiwjs.github.io/react-md-editor/CONTRIBUTORS.svg" />
+<a href="https://github.com/uiwjs/react-clock/graphs/contributors">
+  <img src="https://uiwjs.github.io/react-clock/CONTRIBUTORS.svg" />
 </a>
 
 Made with [github-action-contributors](https://github.com/jaywcjlove/github-action-contributors).
