@@ -6,12 +6,11 @@
 </p>
 
 <!--dividing-->
-[![Build & Deploy](https://github.com/uiwjs/react-clock/workflows/Build%20&%20Deploy/badge.svg)](https://github.com/uiwjs/react-clock/actions)
-[![Issues](https://img.shields.io/github/issues/uiwjs/react-clock.svg)](https://github.com/uiwjs/react-clock/issues)
-[![Forks](https://img.shields.io/github/forks/uiwjs/react-clock.svg)](https://github.com/uiwjs/react-clock/network)
-[![Stars](https://img.shields.io/github/stars/uiwjs/react-clock.svg)](https://github.com/uiwjs/react-clock/stargazers)
-[![Release](https://img.shields.io/github/release/uiwjs/react-clock)](https://github.com/uiwjs/react-clock/releases)
+[![NPM Downloads](https://img.shields.io/npm/dm/@uiw/react-clock.svg?style=flat)](https://www.npmjs.com/package/@uiw/react-clock)
+[![Build & Deploy](https://github.com/uiwjs/react-clock/actions/workflows/ci.yml/badge.svg)](https://github.com/uiwjs/react-clock/actions/workflows/ci.yml)
+[![Open in unpkg](https://img.shields.io/badge/Open%20in-unpkg-blue)](https://uiwjs.github.io/npm-unpkg/#/pkg/@uiw/react-clock/file/README.md)
 [![npm version](https://img.shields.io/npm/v/@uiw/react-clock.svg)](https://www.npmjs.com/package/@uiw/react-clock)
+[![Open in Gitpod](https://shields.io/badge/Open%20in-Gitpod-green?logo=Gitpod)](https://gitpod.io/#https://github.com/uiwjs/react-clock)
 
 An analog clock for your react app.
 
@@ -43,11 +42,9 @@ type ClockProps = {
 Runs the project in development mode.  
 
 ```bash
-# Step 1, run first, listen to the component compile and output the .js file
-npm run ts:watch
-# Step 2, listen for compilation output type .d.ts file
-npm run types:watch
-# Step 3, development mode, listen to compile preview website instance
+# Step 1, run first, listen to the component compile and output the .js and type .d.ts file
+npm run watch
+# Step 2, development mode, listen to compile preview website instance
 npm run start
 ```
 
@@ -59,3 +56,17 @@ npm run build
 
 The build is minified and the filenames include the hashes.
 Your app is ready to be deployed!
+
+## Contributors
+
+As always, thanks to our amazing contributors!
+
+<a href="https://github.com/uiwjs/react-md-editor/graphs/contributors">
+  <img src="https://uiwjs.github.io/react-md-editor/CONTRIBUTORS.svg" />
+</a>
+
+Made with [github-action-contributors](https://github.com/jaywcjlove/github-action-contributors).
+
+### License
+
+Licensed under the MIT License.
