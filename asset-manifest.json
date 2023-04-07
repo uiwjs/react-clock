@@ -1,23 +1,23 @@
 {
   "files": {
-    "main.css": "/react-clock/static/css/main.abb79350.css",
-    "main.js": "/react-clock/static/js/main.55d6c771.js",
-    "refractor-prismjs-vendor.js": "/react-clock/static/js/refractor-prismjs-vendor.0a307a93.js",
-    "parse5-vendor.js": "/react-clock/static/js/parse5-vendor.17ea7169.js",
-    "react-vendor.js": "/react-clock/static/js/react-vendor.f66741b2.js",
+    "main.css": "/react-clock/static/css/main.94aed137.css",
+    "main.js": "/react-clock/static/js/main.590ea861.js",
+    "refractor-prismjs-vendor.js": "/react-clock/static/js/refractor-prismjs-vendor.33204d75.js",
+    "parse5-vendor.js": "/react-clock/static/js/parse5-vendor.6df63753.js",
+    "react-vendor.js": "/react-clock/static/js/react-vendor.0629a635.js",
     "static/media/logo.svg": "/react-clock/static/media/logo.3931a054f5ef8356122965d973d55570.svg",
     "index.html": "/react-clock/index.html",
-    "main.abb79350.css.map": "/react-clock/static/css/main.abb79350.css.map",
-    "main.55d6c771.js.map": "/react-clock/static/js/main.55d6c771.js.map",
-    "refractor-prismjs-vendor.0a307a93.js.map": "/react-clock/static/js/refractor-prismjs-vendor.0a307a93.js.map",
-    "parse5-vendor.17ea7169.js.map": "/react-clock/static/js/parse5-vendor.17ea7169.js.map",
-    "react-vendor.f66741b2.js.map": "/react-clock/static/js/react-vendor.f66741b2.js.map"
+    "main.94aed137.css.map": "/react-clock/static/css/main.94aed137.css.map",
+    "main.590ea861.js.map": "/react-clock/static/js/main.590ea861.js.map",
+    "refractor-prismjs-vendor.33204d75.js.map": "/react-clock/static/js/refractor-prismjs-vendor.33204d75.js.map",
+    "parse5-vendor.6df63753.js.map": "/react-clock/static/js/parse5-vendor.6df63753.js.map",
+    "react-vendor.0629a635.js.map": "/react-clock/static/js/react-vendor.0629a635.js.map"
   },
   "entrypoints": [
-    "static/js/refractor-prismjs-vendor.0a307a93.js",
-    "static/js/parse5-vendor.17ea7169.js",
-    "static/js/react-vendor.f66741b2.js",
-    "static/css/main.abb79350.css",
-    "static/js/main.55d6c771.js"
+    "static/js/refractor-prismjs-vendor.33204d75.js",
+    "static/js/parse5-vendor.6df63753.js",
+    "static/js/react-vendor.0629a635.js",
+    "static/css/main.94aed137.css",
+    "static/js/main.590ea861.js"
   ]
 }
