@@ -49,7 +49,7 @@
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "kkt": "^7.4.9",
-    "tsbb": "~3.7.0"
+    "tsbb": "~4.1.0"
   },
   "eslintConfig": {
     "extends": [
