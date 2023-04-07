@@ -1,6 +1,8 @@
 {
   "compilerOptions": {
     "target": "es5",
+    "module": "esnext",
+    "moduleResolution": "node",
     "lib": [
       "dom",
       "dom.iterable",
@@ -12,8 +14,7 @@
     "allowSyntheticDefaultImports": true,
     "strict": true,
     "forceConsistentCasingInFileNames": true,
-    "module": "esnext",
-    "moduleResolution": "node",
+    "outDir": "cjs",
     "resolveJsonModule": true,
     "isolatedModules": true,
     "declaration": true,
@@ -22,7 +23,6 @@
     "noEmit": true
   },
   "include": [
-    "website",
-    ".kktrc.ts"
+    "src"
   ]
 }

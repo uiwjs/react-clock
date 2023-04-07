@@ -22,7 +22,7 @@ const App: React.FC = () => {
         </p>
         <Example />
       </header>
-      <MarkdownPreview className="App-markdown" source={MDStr.replace(/([\s\S]*)<!--dividing-->/, '')} />
+      <MarkdownPreview className="App-markdown" wrapperElement={{ "data-color-mode": "light" }} source={MDStr.replace(/([\s\S]*)<!--dividing-->/, '')} />
       <div className="App-footer">
         <Github user="uiwjs" repo="react-clock">
           <Github.Social type="forks" href="https://github.com/uiwjs/react-clock" />
