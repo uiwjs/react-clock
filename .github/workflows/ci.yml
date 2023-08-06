@@ -24,20 +24,20 @@ jobs:
         uses: jaywcjlove/github-action-contributors@main
         with:
           filter-author: (renovate\[bot\]|renovate-bot|dependabot\[bot\])
-          output: build/CONTRIBUTORS.svg
+          output: www/build/CONTRIBUTORS.svg
           avatarSize: 42
 
       - name: Deploy
         uses: peaceiris/actions-gh-pages@v3
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
-          publish_dir: ./build
+          publish_dir: ./www/build
 
       - name: Create Tag
         id: create_tag
         uses: jaywcjlove/create-tag-action@main
         with:
-          package-path: ./package.json
+          package-path: ./core/package.json
 
       - name: Generate Changelog
         id: changelog
@@ -57,6 +57,8 @@ jobs:
           tag: ${{ steps.create_tag.outputs.version }}
           body: |
             [![](https://img.shields.io/badge/Open%20in-unpkg-blue)](https://uiwjs.github.io/npm-unpkg/#/pkg/@uiw/react-markdown-editor@${{steps.create_tag.outputs.versionNumber}}/file/README.md) [![npm bundle size](https://img.shields.io/bundlephobia/minzip/@uiw/react-markdown-editor)](https://bundlephobia.com/result?p=@uiw/react-markdown-editor@${{steps.create_tag.outputs.versionNumber}}) [![npm version](https://img.shields.io/npm/v/@uiw/react-markdown-editor.svg)](https://www.npmjs.com/package/@uiw/react-markdown-editor)
+            Documentation ${{ steps.changelog.outputs.tag }}: https://raw.githack.com/uiwjs/react-clock/${{ steps.changelog.outputs.gh-pages-short-hash }}/index.html  
+            Comparing Changes: ${{ steps.changelog.outputs.compareurl }}  
 
             ```bash
             npm i @uiw/react-clock@${{steps.create_tag.outputs.versionNumber}}
@@ -68,6 +70,7 @@ jobs:
 
       - run: npm publish --access public
         name: 📦 @uiw/react-clock publish to NPM
+        working-directory: core
         continue-on-error: true
         env:
           NODE_AUTH_TOKEN: ${{ secrets.NPM_TOKEN }}

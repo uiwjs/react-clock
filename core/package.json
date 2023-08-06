@@ -1,0 +1,40 @@
+{
+  "name": "@uiw/react-clock",
+  "version": "1.2.5",
+  "description": "An analog clock for your React app.",
+  "homepage": "https://uiwjs.github.io/react-clock",
+  "main": "cjs/index.js",
+  "module": "esm/index.js",
+  "types": "esm/index.d.ts",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/uiwjs/react-clock.git"
+  },
+  "license": "MIT",
+  "files": [
+    "dist.css",
+    "dist",
+    "cjs",
+    "esm",
+    "src"
+  ],
+  "keywords": [
+    "react-clock",
+    "react.js",
+    "react",
+    "react-component",
+    "component",
+    "components",
+    "clock"
+  ],
+  "peerDependencies": {
+    "react": ">=16.8.0",
+    "react-dom": ">=16.8.0"
+  },
+  "devDependencies": {
+    "@types/react": "^18.0.33",
+    "@types/react-dom": "^18.0.11",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  }
+}
