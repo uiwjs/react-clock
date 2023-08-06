@@ -18,7 +18,7 @@ root.render(
     description={pkg.description}
     version={`v${VERSION}`}
   >
-    <Github href={pkg.homepage} />
+    <Github href={pkg.repository.url} />
     <Example>
       <ReactClock />
     </Example>
